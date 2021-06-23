@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "lessslavery",
+  "version": "${version}",
+  "name": "LessSlavery",
+  "description": "a mini-mod that disables villager trading",
+  "icon": "assets/lessslavery/icon.png",
+  "author": "wearblackallday",
+  "license": "CC0-1.0",
+  "environment": "*",
+  "mixins": [
+    "lessslavery.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x"
+  }
+}
